@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2021_11_26_052838) do
   create_table "games", force: :cascade do |t|
     t.string "name"
     t.string "genre"
-    t.boolean "multiplayer"
+    t.string "multiplayer"
     t.integer "creator_id"
   end
 
